@@ -14,11 +14,11 @@ from kivy.config import Config
 from kivy.metrics import dp
 from kivy.graphics.texture import Texture
 
-from utilities.gelsightmini import GelSightMini
-from utilities.image_processing import add_fps_count_overlay, rescale
-from utilities.ui_components import ConnectingOverlay, FileChooserPopup, TopBar
+from gsrobotics.gelsightmini import GelSightMini
+from gsrobotics.image_processing import add_fps_count_overlay, rescale
+from gsrobotics.ui_components import ConnectingOverlay, FileChooserPopup, TopBar
 from config import ConfigModel
-from utilities.logger import log_message
+from gsrobotics.logger import log_message
 
 Config.set("input", "mouse", "mouse,multitouch_on_demand")
 

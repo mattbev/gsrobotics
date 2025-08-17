@@ -2,7 +2,7 @@ import json
 import os
 from pathlib import Path
 from pydantic import BaseModel, ValidationError
-from utilities.logger import log_message
+from gsrobotics.logger import log_message
 
 
 class ConfigModel(BaseModel):

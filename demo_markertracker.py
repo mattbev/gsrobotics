@@ -14,15 +14,15 @@ from kivy.config import Config
 from kivy.metrics import dp
 from kivy.graphics.texture import Texture
 
-from utilities.gelsightmini import GelSightMini
-from utilities.image_processing import add_fps_count_overlay, rescale
-from utilities.ui_components import ConnectingOverlay, FileChooserPopup, TopBar
-from utilities.markerdata_logger import MarkerDataLogger
-from utilities.logger import log_message
+from gsrobotics.gelsightmini import GelSightMini
+from gsrobotics.image_processing import add_fps_count_overlay, rescale
+from gsrobotics.ui_components import ConnectingOverlay, FileChooserPopup, TopBar
+from gsrobotics.markerdata_logger import MarkerDataLogger
+from gsrobotics.logger import log_message
 from config import ConfigModel
 import cv2
 import numpy as np
-from utilities.marker_tracker import MarkerTracker
+from gsrobotics.marker_tracker import MarkerTracker
 
 Config.set("input", "mouse", "mouse,multitouch_on_demand")
 

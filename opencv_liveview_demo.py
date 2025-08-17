@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import datetime
-from utilities.gelsightmini import GelSightMini
+from gsrobotics.gelsightmini import GelSightMini
 
 FULLWIDTH = 3280
 FULLHEIGHT= 2464

@@ -1,17 +1,17 @@
 import cv2
 import numpy as np
 from config import ConfigModel
-from utilities.image_processing import (
+from gsrobotics.image_processing import (
     stack_label_above_image,
     apply_cmap,
     color_map_from_txt,
     normalize_array,
     trim_outliers,
 )
-from utilities.reconstruction import Reconstruction3D
-from utilities.visualization import Visualize3D
-from utilities.gelsightmini import GelSightMini
-from utilities.logger import log_message
+from gsrobotics.reconstruction import Reconstruction3D
+from gsrobotics.visualization import Visualize3D
+from gsrobotics.gelsightmini import GelSightMini
+from gsrobotics.logger import log_message
 
 
 def UpdateView(

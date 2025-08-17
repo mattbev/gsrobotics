@@ -7,8 +7,8 @@ import os
 import re
 import datetime
 from typing import Optional
-from utilities.logger import log_message
-from utilities.image_processing import crop_and_resize
+from gsrobotics.logger import log_message
+from gsrobotics.image_processing import crop_and_resize
 
 
 class Camera:
