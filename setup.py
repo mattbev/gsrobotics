@@ -14,6 +14,7 @@ setuptools.setup(
         "pygrabber",
         "scikit-image>=0.24.0",
         "torch==2.6.0",
+        "ffmpeg-python"
     ],
     packages=setuptools.find_packages(),
     classifiers=[
