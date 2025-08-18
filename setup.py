@@ -10,7 +10,7 @@ setuptools.setup(
     install_requires=[
         "numpy",
         "scipy>=1.13.0",
-        "opencv-python-headless",
+        "opencv-python",
         "pygrabber",
         "scikit-image>=0.24.0",
         "torch==2.6.0",
@@ -21,5 +21,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.12",
+    python_requires=">=3.10",
 )

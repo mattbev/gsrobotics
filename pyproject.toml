@@ -1,0 +1,15 @@
+[project]
+name = "gsrobotics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy>=1.13.0",
+    "opencv-python",
+    "pygrabber",
+    "scikit-image>=0.24.0",
+    "torch==2.6.0"
+]
+
